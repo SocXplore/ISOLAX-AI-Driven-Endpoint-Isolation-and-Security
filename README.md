@@ -1,5 +1,5 @@
 ## ISOLAX – AI-Based Endpoint Isolation and Remote Security Monitoring System
-A lightweight and secure endpoint monitoring solution designed to enable real-time screen viewing, process inspection, remote command execution, and one-click isolation, supporting SOC analysts in rapid incident response.
+A lightweight and secure endpoint monitoring solution that combines real-time screen viewing, process inspection, remote command execution, AI-based threat detection, automated alerting, and intelligent endpoint isolation to support SOC analysts in faster and more effective incident response.
 
 ## About
 <!--Detailed Description about the project-->
