@@ -3,9 +3,11 @@ A lightweight and secure endpoint monitoring solution that combines real-time sc
 
 ## About
 <!--Detailed Description about the project-->
-ISOLAX is a cloud-driven endpoint isolation and monitoring platform built to enhance cybersecurity incident handling. Traditional SOC workflows require multiple tools for remote investigation, isolation, and forensic data retrieval, which often results in delays and operational complexity.
+ISOLAX is a AI-driven endpoint isolation and monitoring platform built to enhance cybersecurity incident handling. Traditional SOC workflows require multiple tools for remote investigation, isolation, forensic data retrieval, and threat analysis, which often results in delays and operational complexity.
 
 This project introduces a lightweight Go-based endpoint agent and a centralized web dashboard, enabling analysts to remotely view live screens, browse file systems, execute shell commands, inspect processes, and instantly isolate compromised endpoints through automated OS-native firewall controls.
+
+In addition, ISOLAX integrates an AI-powered threat detection engine that analyzes running processes, generates real-time security alerts, and supports automated isolation for high-confidence threats. This intelligent layer enhances detection accuracy and reduces manual analysis time for SOC analysts.
 
 By using encrypted polling-based communication, ISOLAX works reliably across NAT networks, restrictive firewalls, and diverse operating environments—making it suitable for enterprise SOC teams, cybersecurity labs, and remote forensic investigations.
 
