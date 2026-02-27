@@ -29,6 +29,24 @@ By using encrypted polling-based communication, ISOLAX works reliably across NAT
 
 - Immutable audit logging for investigation and compliance.
 
+## AI Detection and Alerts
+
+Automatically analyzes running processes when an AI scan is triggered.
+
+Detects malicious or suspicious behavior using AI-based threat evaluation.
+
+Generates real-time security alerts upon detection.
+
+Displays detailed alert information including severity level, file path, process ID, and threat summary.
+
+Updates the Security Inbox instantly for SOC analyst review.
+
+Enables rapid threat assessment and decision-making.
+
+Supports direct action such as process termination or endpoint isolation from the alert panel.
+
+<img width="651" height="273" alt="image" src="https://github.com/user-attachments/assets/ed578590-35d1-4f60-bb83-5b859d24cf27" />
+
 ## AI Auto Isolation
 
 Automatically isolates endpoints when the AI engine classifies a process as malicious with high confidence.
@@ -44,6 +62,9 @@ Blocks inbound and outbound traffic to prevent lateral movement.
 Preserves full monitoring visibility for further forensic investigation.
 
 Reduces response time and minimizes potential damage during active attacks.
+
+<img width="654" height="315" alt="image" src="https://github.com/user-attachments/assets/f5533963-9dd2-49ef-bf92-1831f1dadb24" />
+
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
@@ -70,6 +91,8 @@ Runtime: Go executable (no installation needed)
 Permissions: Requires admin/root privileges for isolation operations
 
 Screen Capture Libraries: OS-native screen APIs
+
+
 
 #### Frontend Requirements:
 
