@@ -29,6 +29,22 @@ By using encrypted polling-based communication, ISOLAX works reliably across NAT
 
 - Immutable audit logging for investigation and compliance.
 
+## AI Auto Isolation
+
+Automatically isolates endpoints when the AI engine classifies a process as malicious with high confidence.
+
+Triggers firewall-based isolation rules (Windows netsh / Linux iptables) without manual SOC intervention.
+
+Maintains a secure control channel with the ISOLAX server during isolation.
+
+Updates the Security Dashboard in real time, marking the device status as “Isolated.”
+
+Blocks inbound and outbound traffic to prevent lateral movement.
+
+Preserves full monitoring visibility for further forensic investigation.
+
+Reduces response time and minimizes potential damage during active attacks.
+
 ## Requirements
 <!--List the requirements of the project as shown below-->
 #### Server Requirements:
@@ -80,7 +96,8 @@ WebSocket/HTTP for streaming frames
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-<img width="1027" height="768" alt="image" src="https://github.com/user-attachments/assets/d18de39d-bd6d-4203-874a-9fdca960eddb" />
+<img width="857" height="400" alt="image" src="https://github.com/user-attachments/assets/8f7fe4c7-ab64-497e-90a0-9bd791ff38f7" />
+
 
 
 ## Output
